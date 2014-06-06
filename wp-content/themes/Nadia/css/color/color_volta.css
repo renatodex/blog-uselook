@@ -1,0 +1,46 @@
+.sf-menu li.current, .sf-menu li.current-menu-ancestor > a, .sf-menu li.current-menu-item > a, .sf-menu li.current-menu-item > a:hover {
+  background-color: #fa9100;
+  border-top-color: #fa9100;
+  border-right-color: #fa9100; }
+
+h3.pretitle span, .home .sf-menu li.home-menu a {
+  background-color: #fa9100; }
+
+a, a:link, #content .entry-meta a:hover, #comments .metacc a:hover, #secondary .widget ul li a:hover, #footer .widget ul li a:hover, #secondary .widget_popular_posts h2:hover, #footer .widget_popular_posts h2:hover, #secondary .widget_popular_posts .entry-meta a:hover, #footer .widget_popular_posts .entry-meta a:hover, #footer a:hover, .contact-form form span, .contact-form .error, #footer .sf-menu a:hover {
+  color: #eda019; }
+
+#footer .btm-nav .current-menu-item a, #footer .btm-nav .current-menu-item a:hover, #footer .btm-nav .sf-menu li.current-menu-item ul li:hover > a, #footer .btm-nav .sf-menu li:hover > a {
+  background: none !important;
+  color: #eda019 !important; }
+
+.contact-form .error {
+  border: 1px solid #eda019; }
+
+a:hover {
+  color: #f8b900; }
+
+.sf-menu a:hover {
+  border-top: 1px solid #f8b900; }
+
+.sf-menu a, .sf-menu a:hover {
+  color: #eee; }
+
+input#submit:active {
+  background: #feb12a; }
+
+#secondary .widget_popular_posts h2:hover, #footer .widget_popular_posts h2:hover, ul.page-numbers > li > .next, .page-numbers > li > .prev, ul.page-numbers > li > .current, ul.page-numbers > li > .current, ul.page-numbers > li > .current:hover, ul.page-numbers > li > .current > span:hover, ul.page-numbers > li > .current > a:focus, ul.page-numbers > li > .current > span:focus, #featured-nn .title-box .sub-info .now, #media-panel .flexslider h2:hover, #reviews-panel .flexslider h2:hover, .score-tag {
+  background: #eda019; }
+
+#secondary .widget_tag_cloud ul li a:hover, #secondary .dph_tagcl_wg ul li a:hover {
+  border-color: #f8b900; }
+
+.single #content .entry-header, .page #content .entry-header {
+  border-left-color: #eda019; }
+
+#secondary .widget_latest_imgs ul li img:hover, #footer .widget_latest_imgs ul li img:hover, #secondary .widget_quick-flickr-widget ul li img:hover, #footer .widget_quick-flickr-widget ul li img:hover, ul.page-numbers > li > .next, .page-numbers > li > .prev, ul.page-numbers > li > .current, ul.page-numbers > li > .current, ul.page-numbers > li > .current:hover, ul.page-numbers > li > .current > span:hover, ul.page-numbers > li > .current > a:focus, ul.page-numbers > li > .current > span:focus, #secondary .widget_tag_cloud ul li a:hover, #footer .widget_tag_cloud ul li a:hover, #secondary .dph_tagcl_wg ul li a:hover, #footer .dph_tagcl_wg ul li a:hover {
+  border-color: #eda019; }
+
+#wp-calendar #today {
+  background: #f8b900;
+  background: -moz-radial-gradient(50% 50% 0deg, ellipse cover, #feb12a, #eda019);
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 20, from(#feb12a), to(#eda019)); }

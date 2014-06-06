@@ -1,0 +1,1066 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nadia\n"
+"POT-Creation-Date: 2014-03-22 15:36-0600\n"
+"PO-Revision-Date: 2014-03-22 15:36-0600\n"
+"Last-Translator: \n"
+"Language-Team: Inibot <themes@inibot.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: ../..\n"
+"X-Poedit-SearchPath-1: ../.\n"
+
+#: ../../404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../../404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try with a search?"
+msgstr ""
+
+#: ../../archive.php:21
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../../archive.php:24
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../../archive.php:31 ../../author.php:36
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../../archive.php:39
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../../archive.php:42
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../../archive.php:45
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../../archive.php:48
+msgid "Archives"
+msgstr ""
+
+#: ../../author.php:25
+msgid "has published"
+msgstr ""
+
+#: ../../author.php:25
+msgid "posts"
+msgstr ""
+
+#: ../../comments.php:24
+msgid "Comments on this post"
+msgstr ""
+
+#: ../../comments.php:28 ../../comments.php:48
+msgid "Comment navigation"
+msgstr ""
+
+#: ../../comments.php:29 ../../comments.php:49
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../../comments.php:30 ../../comments.php:50
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../../comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: ../../comments.php:70 ../../page-contact-us.php:97
+msgid "Name"
+msgstr ""
+
+#: ../../comments.php:77
+msgid "E-Mail"
+msgstr ""
+
+#: ../../comments.php:83
+msgid "Web"
+msgstr ""
+
+#: ../../comments.php:87
+msgid "Comment"
+msgstr ""
+
+#: ../../content-featured.php:28
+msgid "Featured Now"
+msgstr ""
+
+#: ../../content-media.php:13
+msgid "Gallery & Videos"
+msgstr ""
+
+#: ../../content-page.php:21 ../../page-contact-us.php:89
+msgid "Pages:"
+msgstr ""
+
+#: ../../content-page.php:22 ../../page-contact-us.php:90
+msgid "Edit"
+msgstr ""
+
+#: ../../content-reviews.php:15
+msgid "Latest Reviews"
+msgstr ""
+
+#: ../../content-single.php:20
+msgid "By"
+msgstr ""
+
+#: ../../content-single.php:22
+msgid "Tweet"
+msgstr ""
+
+#: ../../content-single.php:22
+msgid "Share"
+msgstr ""
+
+#: ../../content-single.php:29
+msgid "<span class=\"pgopen\">Pages:</span>"
+msgstr ""
+
+#: ../../content-single.php:50
+msgid "About"
+msgstr ""
+
+#: ../../content-single.php:51
+msgid "view all posts"
+msgstr ""
+
+#: ../../functions.php:33
+msgid "Header Menu"
+msgstr ""
+
+#: ../../functions.php:34
+msgid "Footer Menu"
+msgstr ""
+
+#: ../../functions.php:57
+msgid "Home Page Sidebar (Default)"
+msgstr ""
+
+#: ../../functions.php:66
+msgid "Single Posts Sidebar"
+msgstr ""
+
+#: ../../functions.php:75
+msgid "Pages Sidebar"
+msgstr ""
+
+#: ../../functions.php:84
+msgid "Contact Page Sidebar"
+msgstr ""
+
+#: ../../functions.php:93
+msgid "Blog Template Sidebar"
+msgstr ""
+
+#: ../../functions.php:102
+msgid "Footer First-Column"
+msgstr ""
+
+#: ../../functions.php:111
+msgid "Footer Second-Column"
+msgstr ""
+
+#: ../../functions.php:120
+msgid "Footer Third-Column"
+msgstr ""
+
+#: ../../functions.php:129
+msgid "Footer Fourth-Column"
+msgstr ""
+
+#: ../../functions.php:194
+msgid "in reply to"
+msgstr ""
+
+#: ../../functions.php:430
+msgid "&larr;"
+msgstr ""
+
+#: ../../functions.php:431
+msgid "&rarr;"
+msgstr ""
+
+#: ../../functions.php:436
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../../functions.php:440
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../../header.php:13
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../../header.php:52
+msgid "Search and hit"
+msgstr ""
+
+#: ../../header.php:55
+msgid "Go"
+msgstr ""
+
+#: ../../image.php:23
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> in <a href=\"%6$s\" title=\"Return to %7$s\" rel="
+"\"gallery\">%7$s</a>"
+msgstr ""
+
+#: ../../image.php:36
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../../image.php:37
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../../inc/admin/options-framework.php:182
+#: ../../inc/admin/options-framework.php:183
+#: ../../inc/admin/options-framework.php:412
+#: .././admin/options-framework.php:182 .././admin/options-framework.php:183
+#: .././admin/options-framework.php:412
+msgid "Theme Options"
+msgstr ""
+
+#: ../../inc/admin/options-framework.php:228
+#: .././admin/options-framework.php:228
+msgid "Clear"
+msgstr ""
+
+#: ../../inc/admin/options-framework.php:229
+#: .././admin/options-framework.php:229
+msgid "Default"
+msgstr ""
+
+#: ../../inc/admin/options-framework.php:230
+#: .././admin/options-framework.php:230
+msgid "Select Color"
+msgstr ""
+
+#: ../../inc/admin/options-framework.php:276
+#: .././admin/options-framework.php:276
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: ../../inc/admin/options-framework.php:308
+#: .././admin/options-framework.php:308
+msgid "Default options restored."
+msgstr ""
+
+#: ../../inc/admin/options-framework.php:362
+#: .././admin/options-framework.php:362
+msgid "Options saved."
+msgstr ""
+
+#: ../../inc/admin/options-media-uploader.php:51
+#: .././admin/options-media-uploader.php:51
+msgid "No file chosen"
+msgstr ""
+
+#: ../../inc/admin/options-media-uploader.php:54
+#: ../../inc/admin/options-media-uploader.php:113
+#: .././admin/options-media-uploader.php:54
+#: .././admin/options-media-uploader.php:113
+msgid "Upload"
+msgstr ""
+
+#: ../../inc/admin/options-media-uploader.php:56
+#: ../../inc/admin/options-media-uploader.php:114
+#: .././admin/options-media-uploader.php:56
+#: .././admin/options-media-uploader.php:114
+msgid "Remove"
+msgstr ""
+
+#: ../../inc/admin/options-media-uploader.php:59
+#: .././admin/options-media-uploader.php:59
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: ../../inc/admin/options-media-uploader.php:83
+#: .././admin/options-media-uploader.php:83
+msgid "View File"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:247
+#: .././admin/options-sanitize.php:247
+msgid "No Repeat"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:248
+#: .././admin/options-sanitize.php:248
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:249
+#: .././admin/options-sanitize.php:249
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:250
+#: .././admin/options-sanitize.php:250
+msgid "Repeat All"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:263
+#: .././admin/options-sanitize.php:263
+msgid "Top Left"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:264
+#: .././admin/options-sanitize.php:264
+msgid "Top Center"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:265
+#: .././admin/options-sanitize.php:265
+msgid "Top Right"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:266
+#: .././admin/options-sanitize.php:266
+msgid "Middle Left"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:267
+#: .././admin/options-sanitize.php:267
+msgid "Middle Center"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:268
+#: .././admin/options-sanitize.php:268
+msgid "Middle Right"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:269
+#: .././admin/options-sanitize.php:269
+msgid "Bottom Left"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:270
+#: .././admin/options-sanitize.php:270
+msgid "Bottom Center"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:271
+#: .././admin/options-sanitize.php:271
+msgid "Bottom Right"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:284
+#: .././admin/options-sanitize.php:284
+msgid "Fixed in Place"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:285
+#: .././admin/options-sanitize.php:285
+msgid "Scroll Normally"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:359
+#: .././admin/options-sanitize.php:359
+msgid "Normal"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:360
+#: .././admin/options-sanitize.php:360
+msgid "Italic"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:361
+#: .././admin/options-sanitize.php:361
+msgid "Bold"
+msgstr ""
+
+#: ../../inc/admin/options-sanitize.php:362
+#: .././admin/options-sanitize.php:362
+msgid "Bold Italic"
+msgstr ""
+
+#: ../../inc/category-color.php:19 ../../inc/category-color.php:40
+#: .././category-color.php:19 .././category-color.php:40
+msgid "Text Color"
+msgstr ""
+
+#: ../../inc/category-color.php:23 ../../inc/category-color.php:42
+#: .././category-color.php:23 .././category-color.php:42
+msgid "Background Color"
+msgstr ""
+
+#: ../../inc/metabox.php:11 .././metabox.php:11
+msgid "Post Options - (Nadia Theme)"
+msgstr ""
+
+#: ../../inc/metabox.php:38 .././metabox.php:38
+msgid "Featured Post"
+msgstr ""
+
+#: ../../inc/metabox.php:41 ../../options.php:274 ../../options.php:288
+#: .././metabox.php:41
+msgid "Position"
+msgstr ""
+
+#: ../../inc/metabox.php:49 .././metabox.php:49
+msgid "Disable Sidebar"
+msgstr ""
+
+#: ../../inc/metabox.php:53 .././metabox.php:53
+msgid "Facebook Comments"
+msgstr ""
+
+#: ../../inc/metabox.php:57 .././metabox.php:57
+msgid "Review Post"
+msgstr ""
+
+#: ../../inc/metabox.php:64 .././metabox.php:64
+msgid "Overall Score"
+msgstr ""
+
+#: ../../inc/metabox.php:67 .././metabox.php:67
+msgid "Header Title"
+msgstr ""
+
+#: ../../inc/metabox.php:74 .././metabox.php:74
+msgid "Review Summary"
+msgstr ""
+
+#: ../../inc/metabox.php:82 .././metabox.php:82
+msgid "Criterion 1"
+msgstr ""
+
+#: ../../inc/metabox.php:85 .././metabox.php:85
+msgid "Criterion Score 1"
+msgstr ""
+
+#: ../../inc/metabox.php:88 .././metabox.php:88
+msgid "Criterion 2"
+msgstr ""
+
+#: ../../inc/metabox.php:91 .././metabox.php:91
+msgid "Criterion Score 2"
+msgstr ""
+
+#: ../../inc/metabox.php:94 .././metabox.php:94
+msgid "Criterion 3"
+msgstr ""
+
+#: ../../inc/metabox.php:97 .././metabox.php:97
+msgid "Criterion Score 3"
+msgstr ""
+
+#: ../../inc/metabox.php:100 .././metabox.php:100
+msgid "Criterion 4"
+msgstr ""
+
+#: ../../inc/metabox.php:103 .././metabox.php:103
+msgid "Criterion Score 4"
+msgstr ""
+
+#: ../../inc/quick-flickr-widget.php:172 ../../inc/widgets.php:62
+#: ../../inc/widgets.php:139 ../../inc/widgets.php:202
+#: ../../inc/widgets.php:259 ../../inc/widgets.php:324
+#: ../../inc/widgets.php:388 ../../inc/widgets.php:441
+#: ../../inc/widgets.php:492 ../../inc/widgets.php:545
+#: ../../inc/widgets.php:629 ../../inc/widgets.php:705
+#: ../../inc/widgets.php:750 .././quick-flickr-widget.php:172
+#: .././widgets.php:62 .././widgets.php:139 .././widgets.php:202
+#: .././widgets.php:259 .././widgets.php:324 .././widgets.php:388
+#: .././widgets.php:441 .././widgets.php:492 .././widgets.php:545
+#: .././widgets.php:629 .././widgets.php:705 .././widgets.php:750
+msgid "Title:"
+msgstr ""
+
+#: ../../inc/quick-flickr-widget.php:176 .././quick-flickr-widget.php:176
+msgid "Username or RSS:"
+msgstr ""
+
+#: ../../inc/quick-flickr-widget.php:180 .././quick-flickr-widget.php:180
+msgid "Tags:"
+msgstr ""
+
+#: ../../inc/quick-flickr-widget.php:184 .././quick-flickr-widget.php:184
+msgid "Count:"
+msgstr ""
+
+#: ../../inc/shortcodes/load.php:31 .././shortcodes/load.php:31
+msgid "Google Maps"
+msgstr ""
+
+#: ../../inc/shortcodes/load.php:32 .././shortcodes/load.php:32
+msgid "Buttons"
+msgstr ""
+
+#: ../../inc/shortcodes/load.php:33 .././shortcodes/load.php:33
+msgid "Alerts"
+msgstr ""
+
+#: ../../inc/shortcodes/load.php:34 .././shortcodes/load.php:34
+msgid "Labels"
+msgstr ""
+
+#: ../../inc/shortcodes/load.php:35 .././shortcodes/load.php:35
+msgid "Progress Bar"
+msgstr ""
+
+#: ../../inc/shortcodes/load.php:36 .././shortcodes/load.php:36
+msgid "Tabs"
+msgstr ""
+
+#: ../../inc/shortcodes/load.php:37 .././shortcodes/load.php:37
+msgid "Video"
+msgstr ""
+
+#: ../../inc/shortcodes/load.php:38 .././shortcodes/load.php:38
+msgid "Pull-Quote"
+msgstr ""
+
+#: ../../inc/shortcodes/load.php:39 .././shortcodes/load.php:39
+msgid "Accordion"
+msgstr ""
+
+#: ../../inc/widgets.php:13 .././widgets.php:13
+msgid "Display a cloud list of tags. Exclude and Include options."
+msgstr ""
+
+#: ../../inc/widgets.php:13 .././widgets.php:13
+msgid "Tag Cloud w/Options - Nadia"
+msgstr ""
+
+#: ../../inc/widgets.php:90 .././widgets.php:90
+msgid "Display a list of categories. Exclude and Include options."
+msgstr ""
+
+#: ../../inc/widgets.php:90 .././widgets.php:90
+msgid "List Categories w/Options - Nadia"
+msgstr ""
+
+#: ../../inc/widgets.php:176 .././widgets.php:176
+msgid "Display Social Icons"
+msgstr ""
+
+#: ../../inc/widgets.php:176 .././widgets.php:176
+msgid "Social Icons - Nadia"
+msgstr ""
+
+#: ../../inc/widgets.php:215 .././widgets.php:215
+msgid "List Blog Editors with Avatar"
+msgstr ""
+
+#: ../../inc/widgets.php:215 .././widgets.php:215
+msgid "List Authors - Nadia"
+msgstr ""
+
+#: ../../inc/widgets.php:272 .././widgets.php:272
+msgid "Display recent posts from category"
+msgstr ""
+
+#: ../../inc/widgets.php:272 .././widgets.php:272
+msgid "Category Posts - Nadia"
+msgstr ""
+
+#: ../../inc/widgets.php:328 .././widgets.php:328
+msgid "Category:"
+msgstr ""
+
+#: ../../inc/widgets.php:343 ../../inc/widgets.php:633
+#: ../../inc/widgets.php:709 .././widgets.php:343 .././widgets.php:633
+#: .././widgets.php:709
+msgid "Number of posts:"
+msgstr ""
+
+#: ../../inc/widgets.php:363 ../../inc/widgets.php:402 .././widgets.php:363
+#: .././widgets.php:402
+msgid "Display your Ads."
+msgstr ""
+
+#: ../../inc/widgets.php:363 .././widgets.php:363
+msgid "Widget Single Ad - Nadia"
+msgstr ""
+
+#: ../../inc/widgets.php:402 .././widgets.php:402
+msgid "Widget Ads (125x125) - Nadia"
+msgstr ""
+
+#: ../../inc/widgets.php:455 .././widgets.php:455
+msgid "Add a Facebook Like Box"
+msgstr ""
+
+#: ../../inc/widgets.php:455 .././widgets.php:455
+msgid "Facebook Like Box - Nadia"
+msgstr ""
+
+#: ../../inc/widgets.php:510 .././widgets.php:510
+msgid "Display recent comments with author gravatar"
+msgstr ""
+
+#: ../../inc/widgets.php:510 .././widgets.php:510
+msgid "Recent Comments w/Gravatar - Nadia"
+msgstr ""
+
+#: ../../inc/widgets.php:549 .././widgets.php:549
+msgid "Number of comments:"
+msgstr ""
+
+#: ../../inc/widgets.php:562 .././widgets.php:562
+msgid "Display most popular posts based on comments or views"
+msgstr ""
+
+#: ../../inc/widgets.php:562 .././widgets.php:562
+msgid "Popular Posts - Nadia"
+msgstr ""
+
+#: ../../inc/widgets.php:600 ../../inc/widgets.php:640 .././widgets.php:600
+#: .././widgets.php:640
+msgid "Post Comments"
+msgstr ""
+
+#: ../../inc/widgets.php:637 .././widgets.php:637
+msgid "Based on:"
+msgstr ""
+
+#: ../../inc/widgets.php:640 .././widgets.php:640
+msgid "Post Views"
+msgstr ""
+
+#: ../../inc/widgets.php:661 .././widgets.php:661
+msgid "Display recent posts with thumbnail"
+msgstr ""
+
+#: ../../inc/widgets.php:661 .././widgets.php:661
+msgid "Latest Posts - Nadia"
+msgstr ""
+
+#: ../../inc/widgets.php:722 .././widgets.php:722
+msgid "Add a video widget"
+msgstr ""
+
+#: ../../inc/widgets.php:722 .././widgets.php:722
+msgid "Video - Nadia"
+msgstr ""
+
+#: ../../index.php:24
+msgid "Latest News"
+msgstr ""
+
+#: ../../no-results.php:10
+msgid "Nothing Found"
+msgstr ""
+
+#: ../../no-results.php:16
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../../no-results.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../../no-results.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../../options.php:32
+msgid "One"
+msgstr ""
+
+#: ../../options.php:33
+msgid "Two"
+msgstr ""
+
+#: ../../options.php:34
+msgid "Three"
+msgstr ""
+
+#: ../../options.php:35
+msgid "Four"
+msgstr ""
+
+#: ../../options.php:36
+msgid "Five"
+msgstr ""
+
+#: ../../options.php:41
+msgid "Slide"
+msgstr ""
+
+#: ../../options.php:42
+msgid "Fade"
+msgstr ""
+
+#: ../../options.php:47
+msgid "Top"
+msgstr ""
+
+#: ../../options.php:48
+msgid "Bottom"
+msgstr ""
+
+#: ../../options.php:53
+msgid "Default (Red)"
+msgstr ""
+
+#: ../../options.php:54
+msgid "Blue"
+msgstr ""
+
+#: ../../options.php:55
+msgid "Orange"
+msgstr ""
+
+#: ../../options.php:56
+msgid "Green"
+msgstr ""
+
+#: ../../options.php:57
+msgid "Purple"
+msgstr ""
+
+#: ../../options.php:131
+msgid "General"
+msgstr ""
+
+#: ../../options.php:135
+msgid "Site description"
+msgstr ""
+
+#: ../../options.php:136
+msgid ""
+"Add a brief description about your site. It will be displayed under the "
+"footer logo section."
+msgstr ""
+
+#: ../../options.php:143
+msgid "Header Logo"
+msgstr ""
+
+#: ../../options.php:144
+msgid "Add a URL or upload an image for your logo (header section)."
+msgstr ""
+
+#: ../../options.php:149
+msgid "Footer Logo"
+msgstr ""
+
+#: ../../options.php:150
+msgid "Add a URL or upload an image for your logo (footer section)."
+msgstr ""
+
+#: ../../options.php:155
+msgid "Favicon"
+msgstr ""
+
+#: ../../options.php:156
+msgid ""
+"Add a URL or upload an icon for your favicon. (recommended size: 16px*16px)"
+msgstr ""
+
+#: ../../options.php:161
+msgid "Google Analytics"
+msgstr ""
+
+#: ../../options.php:162
+msgid "Paste here your Google Analytics code."
+msgstr ""
+
+#: ../../options.php:169
+msgid "Footer Tagline"
+msgstr ""
+
+#: ../../options.php:170
+msgid "Add a text to display on the footer."
+msgstr ""
+
+#: ../../options.php:177
+msgid "Style"
+msgstr ""
+
+#: ../../options.php:212
+msgid "Numbered Pagination"
+msgstr ""
+
+#: ../../options.php:213
+msgid "Enable the numbered page pagination"
+msgstr ""
+
+#: ../../options.php:220
+msgid "Custom Background"
+msgstr ""
+
+#: ../../options.php:221
+msgid "Enable this option if you want to set a custom background"
+msgstr ""
+
+#: ../../options.php:226
+msgid "Boxed Layout"
+msgstr ""
+
+#: ../../options.php:233
+msgid "Change the background color or add an image."
+msgstr ""
+
+#: ../../options.php:240
+msgid "Responsive background image"
+msgstr ""
+
+#: ../../options.php:248
+msgid "Pattern overlay on background"
+msgstr ""
+
+#: ../../options.php:256
+msgid "Custom CSS"
+msgstr ""
+
+#: ../../options.php:257
+msgid "Add your custom CSS code in this area."
+msgstr ""
+
+#: ../../options.php:264
+msgid "Featured Area"
+msgstr ""
+
+#: ../../options.php:268
+msgid "Reviewed Posts Section"
+msgstr ""
+
+#: ../../options.php:269
+msgid "Display Reviewed Posts section"
+msgstr ""
+
+#: ../../options.php:282
+msgid "Media Format Posts Section"
+msgstr ""
+
+#: ../../options.php:283
+msgid "Display Video/Gallery Posts section"
+msgstr ""
+
+#: ../../options.php:295
+msgid "Slider and Blocks"
+msgstr ""
+
+#: ../../options.php:296
+msgid "Enable Featured Posts (slider and featured blocks)"
+msgstr ""
+
+#: ../../options.php:303
+msgid "Slider Posts"
+msgstr ""
+
+#: ../../options.php:304
+msgid "Set the number of posts to display in slider (1 = static block)"
+msgstr ""
+
+#: ../../options.php:311
+msgid "Slider Options"
+msgstr ""
+
+#: ../../options.php:312
+msgid "Set the animation effect"
+msgstr ""
+
+#: ../../options.php:319
+msgid "Auto Play"
+msgstr ""
+
+#: ../../options.php:325
+msgid "Pause on mouse hover"
+msgstr ""
+
+#: ../../options.php:331
+msgid "Set the speed of the slideshow cycling, in milliseconds"
+msgstr ""
+
+#: ../../options.php:338
+msgid "Set the speed of animations, in milliseconds"
+msgstr ""
+
+#: ../../options.php:345
+msgid "Social"
+msgstr ""
+
+#: ../../options.php:349
+msgid "Display social icons on Header"
+msgstr ""
+
+#: ../../options.php:355
+msgid "Twitter"
+msgstr ""
+
+#: ../../options.php:356
+msgid "Add your Twitter URL."
+msgstr ""
+
+#: ../../options.php:363
+msgid "Facebook"
+msgstr ""
+
+#: ../../options.php:364
+msgid "Add your Facebook URL."
+msgstr ""
+
+#: ../../options.php:371
+msgid "Google Plus"
+msgstr ""
+
+#: ../../options.php:372
+msgid "Add your Google+ URL."
+msgstr ""
+
+#: ../../options.php:379
+msgid "Pinterest"
+msgstr ""
+
+#: ../../options.php:380
+msgid "Add your Pinterest URL."
+msgstr ""
+
+#: ../../options.php:387
+msgid "Instagram"
+msgstr ""
+
+#: ../../options.php:388
+msgid "Add your Instagram URL."
+msgstr ""
+
+#: ../../options.php:395
+msgid "Feed"
+msgstr ""
+
+#: ../../options.php:396
+msgid "Add your Feed URL."
+msgstr ""
+
+#: ../../options.php:403
+msgid "Advertising"
+msgstr ""
+
+#: ../../options.php:407
+msgid "Header Banner"
+msgstr ""
+
+#: ../../options.php:408
+msgid "Ad Image Location (max width: 638px)"
+msgstr ""
+
+#: ../../options.php:414 ../../options.php:428
+msgid "Ad Link Destination"
+msgstr ""
+
+#: ../../options.php:421
+msgid "Widget Single Ad"
+msgstr ""
+
+#: ../../options.php:422
+msgid "Ad Image Location (max width: 350px)"
+msgstr ""
+
+#: ../../options.php:435
+msgid "Widget Ads (125x125)"
+msgstr ""
+
+#: ../../options.php:436
+msgid "Ad #1 Image Location"
+msgstr ""
+
+#: ../../options.php:442
+msgid "Ad #1 Link Destination"
+msgstr ""
+
+#: ../../options.php:449
+msgid "Ad #2 Image Location"
+msgstr ""
+
+#: ../../options.php:455
+msgid "Ad #2 Link Destination"
+msgstr ""
+
+#: ../../options.php:462
+msgid "Ad #3 Image Location"
+msgstr ""
+
+#: ../../options.php:468
+msgid "Ad #3 Link Destination"
+msgstr ""
+
+#: ../../options.php:475
+msgid "Ad #4 Image Location"
+msgstr ""
+
+#: ../../options.php:481
+msgid "Ad #4 Link Destination"
+msgstr ""
+
+#: ../../page-contact-us.php:21
+msgid "Human verification incorrect"
+msgstr ""
+
+#: ../../page-contact-us.php:22
+msgid "Please supply all information"
+msgstr ""
+
+#: ../../page-contact-us.php:23
+msgid "Email Address Invalid"
+msgstr ""
+
+#: ../../page-contact-us.php:24
+msgid "Message was not sent"
+msgstr ""
+
+#: ../../page-contact-us.php:25
+msgid "Thanks! Your message has been sent"
+msgstr ""
+
+#: ../../page-contact-us.php:101
+msgid "Email"
+msgstr ""
+
+#: ../../page-contact-us.php:104
+msgid "Message"
+msgstr ""
+
+#: ../../page-contact-us.php:106
+msgid "Human Verification"
+msgstr ""
+
+#: ../../page-contact-us.php:112
+msgid "Submit"
+msgstr ""
+
+#: ../../search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../../searchform.php:8
+msgid "Search"
+msgstr ""

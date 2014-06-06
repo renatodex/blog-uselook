@@ -1,0 +1,100 @@
+/* =============================================================================
+/* Desktop Screens
+============================================================================= */
+@media (min-width: 1200px) {
+  .featured-image img {
+    min-height: 239px; }
+
+  #slider-nn img {
+    width: 100%;
+    min-height: 432px; }
+
+  .block-inner {
+    height: 205px; }
+
+  .loading {
+    min-height: 410px; } }
+/* =============================================================================
+   Portrait tablet to landscape and desktop @screen-md-min
+   ============================================================================= */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #topnav .inners {
+    max-width: 940px; }
+
+  .block-inner {
+    height: 188px; }
+
+  #slider-nn img {
+    max-height: 376px !important; } }
+@media (max-width: 991px) {
+  #topnav .main-nav ul {
+    display: none; }
+
+  #slider-nn .flex-direction-nav {
+    display: none; }
+
+  #topnav .inners {
+    max-width: 720px !important; }
+
+  .nomo {
+    width: 100%; } }
+/* =============================================================================
+   Landscape phone to portrait tablet @screen-sm-min
+   ============================================================================= */
+@media (max-width: 767px) {
+  #header .main-nav ul {
+    display: none; }
+
+  #topnav .inners {
+    width: 100%;
+    max-width: 767px;
+    padding-right: 0px;
+    margin-left: -15px; } }
+@media (max-width: 767px) and (min-width: 495px) {
+  #content .post-extract {
+    height: auto !important;
+    margin-top: 0; }
+
+  .read-more {
+    text-align: center;
+    margin-left: 10px  !important;
+    position: relative !important;
+    display: inline; }
+
+  .header-extract img {
+    height: auto !important; }
+
+  .featured-image {
+    width: 46%;
+    float: left;
+    margin: 0 15px 0 0 !important; }
+
+  #comments .metacc {
+    margin-left: 5px !important; } }
+/* =============================================================================
+   Landscape phones and down @screen-xs-min
+   ============================================================================= */
+@media (max-width: 480px) {
+  #comments .metacc {
+    margin-left: 5px !important; }
+
+  .social-bar {
+    display: none; }
+
+  #slider-nn .title-box h2 {
+    font-size: 20px !important; }
+
+  .title-box .sub-info .now {
+    display: none; }
+
+  .title-box .sub-info {
+    font-size: .8em; }
+
+  .loading {
+    min-height: 220px; }
+
+  #comments #respond .inputcom, .contact-form .inputcom {
+    width: 100% !important;
+    float: none;
+    margin: 5px 0 0 0 !important;
+    display: block; } }

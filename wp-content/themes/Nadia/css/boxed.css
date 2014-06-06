@@ -1,0 +1,22 @@
+/*! =============================================================================
+   Boxed Layout
+   ============================================================================= */
+
+
+#nn-wrap{
+  background:#fff;
+  max-width: 1200px;
+  margin:0 auto;
+  padding:0;
+  -webkit-font-smoothing:subpixel-antialiased !important;
+}
+
+
+@media (min-width: 1200px) {
+
+  #topnav .inners{
+    max-width:1200px;
+    margin-left:-30px;
+  }
+
+}
