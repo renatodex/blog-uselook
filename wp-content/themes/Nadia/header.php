@@ -77,7 +77,7 @@
 
             <?php if(of_get_option('ad_banner_uploader', false)) : ?>
             <div class="col-md-12">
-                <div class="banner-section"><a href="<?php echo of_get_option('ad_banner_link', 'no entry'); ?>"><img src="<?php echo of_get_option('ad_banner_uploader', 'no entry'); ?>" class="img-responsive" alt="Header Banner" /></a></div>
+                <div class="banner-section"><a target="_blank" href="<?php echo of_get_option('ad_banner_link', 'no entry'); ?>"><img src="<?php echo of_get_option('ad_banner_uploader', 'no entry'); ?>" class="img-responsive" alt="Header Banner" /></a></div>
             </div>
             <?php endif; ?>
 

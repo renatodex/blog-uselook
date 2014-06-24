@@ -25,9 +25,9 @@ get_header();
                                 <span class="mini-author"><?php _e('has published', 'nadia'); ?> <?php the_author_posts(); ?> <?php _e('posts', 'nadia'); ?></span>
                                 <div class="minicons">
                                     <?php $user_id = get_the_author_meta('ID');
-                                    $twitter = get_user_meta ($user_id, 'twitter', true); if ($twitter) { echo "<a class=\"twitter\" href=\"http://twitter.com/$twitter\"></a>"; } ?>
-                                    <?php $facebook = get_user_meta ($user_id, 'facebook', true); if ($facebook) { echo "<a class=\"facebook\" href=\"http://facebook.com/$facebook\"></a>"; } ?>
-                                    <?php $gplus = get_user_meta ($user_id, 'gplus', true); if ($gplus) { echo "<a class=\"gplus\" href=\"http://plus.google.com/$gplus\"></a>"; } ?>
+                                    $twitter = get_user_meta ($user_id, 'twitter', true); if ($twitter) { echo "<a target=\"_blank\" class=\"twitter\" href=\"http://twitter.com/$twitter\"></a>"; } ?>
+                                    <?php $facebook = get_user_meta ($user_id, 'facebook', true); if ($facebook) { echo "<a target=\"_blank\" class=\"facebook\" href=\"http://facebook.com/$facebook\"></a>"; } ?>
+                                    <?php $gplus = get_user_meta ($user_id, 'gplus', true); if ($gplus) { echo "<a target=\"_blank\" class=\"gplus\" href=\"http://plus.google.com/$gplus\"></a>"; } ?>
                                 </div>
                                 <p><?php the_author_meta('description'); ?></p>
                             </div>
@@ -52,11 +52,11 @@ get_header();
                     </div>
 
                 </div>
-            </div> 
+            </div>
             <!-- ============================= /Content -->
 
 
-            <?php get_sidebar(); ?> 
+            <?php get_sidebar(); ?>
 
 
         </div>
@@ -64,5 +64,5 @@ get_header();
 
 
 <?php
-get_footer(); 
+get_footer();
 ?>

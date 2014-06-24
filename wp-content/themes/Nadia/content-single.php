@@ -52,9 +52,9 @@
 
 		<div class="minicons hidden-xs">
 			<?php $user_id = get_the_author_meta('ID');
-			$twitter = get_user_meta ($user_id, 'twitter', true); if ($twitter) { echo "<a class=\"twitter\" href=\"http://twitter.com/$twitter\"></a>"; } ?>
-			<?php $facebook = get_user_meta ($user_id, 'facebook', true); if ($facebook) { echo "<a class=\"facebook\" href=\"http://facebook.com/$facebook\"></a>"; } ?>
-			<?php $gplus = get_user_meta ($user_id, 'gplus', true); if ($gplus) { echo "<a class=\"gplus\" href=\"http://plus.google.com/$gplus\"></a>"; } ?>
+			$twitter = get_user_meta ($user_id, 'twitter', true); if ($twitter) { echo "<a target=\"_blank\" class=\"twitter\" href=\"http://twitter.com/$twitter\"></a>"; } ?>
+			<?php $facebook = get_user_meta ($user_id, 'facebook', true); if ($facebook) { echo "<a target=\"_blank\" class=\"facebook\" href=\"http://facebook.com/$facebook\"></a>"; } ?>
+			<?php $gplus = get_user_meta ($user_id, 'gplus', true); if ($gplus) { echo "<a target=\"_blank\" class=\"gplus\" href=\"http://plus.google.com/$gplus\"></a>"; } ?>
 		</div>
 
 		<p class="author-bio"><?php the_author_meta('description'); ?></p>
@@ -63,12 +63,12 @@
 <div class="clearfix"></div>
 
 
-<?php if (get_post_meta($post->ID, 'meta_dph_fbcomms', true) == "on") { 
+<?php if (get_post_meta($post->ID, 'meta_dph_fbcomms', true) == "on") {
 	echo '<div id="fb-comments" class="fb-comments" data-href="'. get_permalink() .'" data-num-posts="10"></div>';
-	} 
+	}
 
-elseif ( comments_open() || '0' != get_comments_number() ) { 
+elseif ( comments_open() || '0' != get_comments_number() ) {
 	comments_template( '', true );
-	} 
+	}
 
 ?>

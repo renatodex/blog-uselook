@@ -105,7 +105,7 @@ register_sidebar( array(
 'after_widget' => '</aside><div class="clearfix"></div>',
 'before_title' => '<h3 class="widget-title footer-news">',
 'after_title' => '</h3>',
-)); 
+));
 
 register_sidebar( array(
 'name' => __( 'Footer Second-Column', 'nadia' ),
@@ -114,7 +114,7 @@ register_sidebar( array(
 'after_widget' => '</aside><div class="clearfix"></div>',
 'before_title' => '<h3 class="widget-title footer-news">',
 'after_title' => '</h3>',
-)); 
+));
 
 register_sidebar( array(
 'name' => __( 'Footer Third-Column', 'nadia' ),
@@ -123,7 +123,7 @@ register_sidebar( array(
 'after_widget' => '</aside><div class="clearfix"></div>',
 'before_title' => '<h3 class="widget-title footer-news">',
 'after_title' => '</h3>',
-)); 
+));
 
 register_sidebar( array(
 'name' => __( 'Footer Fourth-Column', 'nadia' ),
@@ -132,7 +132,7 @@ register_sidebar( array(
 'after_widget' => '</aside><div class="clearfix"></div>',
 'before_title' => '<h3 class="widget-title footer-news">',
 'after_title' => '</h3>',
-)); 
+));
 }
 
 /* Add scripts and styles
@@ -140,7 +140,7 @@ register_sidebar( array(
 function nadia_scripts() {
     global $wp_styles;
     $nn_colorcss = of_get_option('color_nn', null);
-    
+
     /* * Load CSS */
     wp_enqueue_style( 'Bootstrap', get_template_directory_uri()  . '/css/bootstrap.css', array(), '3.0.3', 'all' );
     wp_enqueue_style( 'Lib', get_template_directory_uri()  . '/css/lib.css', array(), '1.4', 'all' );
@@ -184,8 +184,8 @@ $GLOBALS['comment_depth'] = $depth;
 
 <li <?php comment_class(); ?>>
     <div id="comment-<?php comment_ID(); ?>">
-        <span class="author-avatar"><?php echo get_avatar( $comment, '100' ); ?></span> 
-    
+        <span class="author-avatar"><?php echo get_avatar( $comment, '100' ); ?></span>
+
         <div class="dph-comment">
             <?php comment_text() ?>
         </div>
@@ -194,7 +194,7 @@ $GLOBALS['comment_depth'] = $depth;
             <?php if ($comment->comment_parent != '0') : ?> <a href="<?php $commentparent = get_comment($comment->comment_parent); $commentparentpage = get_page_of_comment($commentparent) ; echo htmlspecialchars( get_comment_link( $commentparent, array('page' => $commentparentpage) ) ) ?>">(<?php _e('in reply to','nadia') ?> <?php echo $commentparent->comment_author; ?>)</a> <?php endif; ?>
 
             <?php comment_reply_link( array_merge( $args, array( 'depth' => $depth, 'max_depth' => $args['max_depth'] ) ) ); ?>
-        </div>  
+        </div>
     </div>
 <?php }
 
@@ -236,26 +236,26 @@ function nn_get_panels( $nn_panels_position ) {
 
     if ("home_top" == $nn_panels_position and is_home() and !is_paged() ) {
 
-        if ( of_get_option('featured_bk', 'true') ) { 
-            get_template_part( 'content', 'featured' ); 
+        if ( of_get_option('featured_bk', 'true') ) {
+            get_template_part( 'content', 'featured' );
         }
 
-        if ( "home_top" == of_get_option('scored_position', false) and $scored_posts_nn ) { 
-            get_template_part( 'content', 'reviews' ); 
+        if ( "home_top" == of_get_option('scored_position', false) and $scored_posts_nn ) {
+            get_template_part( 'content', 'reviews' );
         }
 
-        if ( "home_top" == of_get_option('media_position', false) and $media_posts_nn ) { 
+        if ( "home_top" == of_get_option('media_position', false) and $media_posts_nn ) {
             get_template_part( 'content', 'media' );
         }
     }
 
     if ("home_bottom" == $nn_panels_position and is_home() and !is_paged() ) {
 
-        if ( "home_bottom" == of_get_option('scored_position', false) and $scored_posts_nn ) { 
-            get_template_part( 'content', 'reviews' ); 
+        if ( "home_bottom" == of_get_option('scored_position', false) and $scored_posts_nn ) {
+            get_template_part( 'content', 'reviews' );
         }
 
-        if ( "home_bottom" == of_get_option('media_position', false) and $media_posts_nn ) { 
+        if ( "home_bottom" == of_get_option('media_position', false) and $media_posts_nn ) {
             get_template_part( 'content', 'media' );
         }
     }
@@ -305,7 +305,7 @@ function nn_data_over($get_cat, $get_score, $get_format, $score_width) {
 <?php
 }
 
-endif; 
+endif;
 
 
 
@@ -317,10 +317,10 @@ if ( ! function_exists( 'dph_comments_nb' ) ):
 function dph_comments_nb( $dph_comments_class ) {
     global $post;
 
-    $dph_comments = get_comments_number('0', '1', '%'); 
+    $dph_comments = get_comments_number('0', '1', '%');
     $dph_postlink = get_permalink();
 
-    if (get_post_meta($post->ID, 'meta_dph_fbcomms', true) == "on") { 
+    if (get_post_meta($post->ID, 'meta_dph_fbcomms', true) == "on") {
         echo '<a href="'.$dph_postlink.'#fb-comments"><div class="fb-comments-count '.$dph_comments_class.'" data-href="'.$dph_postlink.'">0</div> </a>';
     }
     else{
@@ -368,13 +368,13 @@ function nn_scored_panel() {
             <div class="score-summ">
                  <span class="score-tag"><?php echo get_post_meta($post->ID, 'meta_dph_review_title', true); ?></span>
                 <span class="summ"><?php echo get_post_meta($post->ID, 'meta_dph_review_summ', true); ?>
-            </div> 
+            </div>
 
-            
+
 
             <?php if (get_post_meta($post->ID, 'meta_dph_review_criterion_1', true) ) : ?>
             <div class="criter">
-                <?php 
+                <?php
                 nn_scored_bars('meta_dph_review_criterion_1', 'meta_dph_review_criterion_score_1');
                 nn_scored_bars('meta_dph_review_criterion_2', 'meta_dph_review_criterion_score_2');
                 nn_scored_bars('meta_dph_review_criterion_3', 'meta_dph_review_criterion_score_3');
@@ -382,7 +382,7 @@ function nn_scored_panel() {
                 ?>
             </div>
             <?php endif ?>
-                  
+
         </div>
 
         <div class="wave"></div>
@@ -511,7 +511,7 @@ echo "<img src=\"$dir/img/def.png\" alt=\"\" />";
 }
 
 /* Custom logo call
-/* ----------------------------------------------*/	
+/* ----------------------------------------------*/
 function custom_logo($location) {
 if($location == 'header'){
 $image_url = of_get_option('logo_uploader', 'no entry');
@@ -529,7 +529,7 @@ echo "<img src=\"$image_url\" alt=\"$blognm\" />";
 =================================================================================================== */
 add_filter( 'wp_nav_menu_items', 'add_home_link', 10, 2 );
 function add_home_link($items, $args) {
-  
+
         if (is_home()){
             $class = 'class="home-menu current current-menu-item"';
         }
@@ -579,36 +579,36 @@ function setPostViews($postID) {
 =================================================================================================== */
 function dph_icons(){
     $twibtt = of_get_option('twitter_id', false);
-    if($twibtt) echo "<a class=\"twitter\" href=\"$twibtt\"></a>\n";
+    if($twibtt) echo "<a target=\"_blank\" class=\"twitter\" href=\"$twibtt\"></a>\n";
 
     $fcbbtt = of_get_option('facebook_id', false);
-    if($fcbbtt) echo "<a class=\"facebook\" href=\"$fcbbtt\"></a>\n";
+    if($fcbbtt) echo "<a target=\"_blank\" class=\"facebook\" href=\"$fcbbtt\"></a>\n";
 
     $gplbtt = of_get_option('gplus_id', false);
-    if($gplbtt) echo "<a class=\"gplus\" href=\"$gplbtt\"></a>\n";
+    if($gplbtt) echo "<a target=\"_blank\" class=\"gplus\" href=\"$gplbtt\"></a>\n";
 
     $pintbtt = of_get_option('pinterest_id', false);
-    if($pintbtt) echo "<a class=\"pint\" href=\"$pintbtt\"></a>\n";
+    if($pintbtt) echo "<a target=\"_blank\" class=\"pint\" href=\"$pintbtt\"></a>\n";
 
     $instbtt = of_get_option('instagram_id', false);
-    if($instbtt) echo "<a class=\"inst\" href=\"$instbtt\"></a>\n";
+    if($instbtt) echo "<a target=\"_blank\" class=\"inst\" href=\"$instbtt\"></a>\n";
 
     $feedbtt = of_get_option('feed_id', false);
-    if($feedbtt) echo "<a class=\"feed\" href=\"$feedbtt\"></a>";
+    if($feedbtt) echo "<a target=\"_blank\" class=\"feed\" href=\"$feedbtt\"></a>";
 }
 
 /* Social Contact Methods
 =================================================================================================== */
-add_filter('user_contactmethods', 'dph_contactmethods');  
-function dph_contactmethods($user_contactmethods){  
-  unset($user_contactmethods['yim']);  
-  unset($user_contactmethods['aim']);  
-  unset($user_contactmethods['jabber']); 
-  $user_contactmethods['twitter'] = 'Twitter Username';  
+add_filter('user_contactmethods', 'dph_contactmethods');
+function dph_contactmethods($user_contactmethods){
+  unset($user_contactmethods['yim']);
+  unset($user_contactmethods['aim']);
+  unset($user_contactmethods['jabber']);
+  $user_contactmethods['twitter'] = 'Twitter Username';
   $user_contactmethods['facebook'] = 'Facebook Username';
   $user_contactmethods['gplus'] = 'Google Plus ID';
-  return $user_contactmethods;  
-}  
+  return $user_contactmethods;
+}
 
 /* Options Framework
 =================================================================================================== */
@@ -618,11 +618,11 @@ function of_get_option($name, $default = false) {
     $optionsframework_settings = get_option('optionsframework');
     // Gets the unique option id
     $option_name = $optionsframework_settings['id'];
-    
+
     if ( get_option($option_name) ) {
         $options = get_option($option_name);
     }
-        
+
     if ( isset($options[$name]) ) {
         return $options[$name];
     } else {
